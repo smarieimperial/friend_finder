@@ -8,7 +8,8 @@ app.get('/index', function(req, res){
 });
 
 app.get('/quiz', function(req, res){
-	res.sendFile(path.join(__dirname, "/friend_finder/app/public/quiz.html"));
+	res.sendFile(path.join(__dirname, "/app/public/quiz.html")); // this isn't redirecting to the quiz.html from github io browser
+	// but works on my local server
 });
 
 

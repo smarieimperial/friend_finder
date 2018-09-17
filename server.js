@@ -8,7 +8,7 @@ app.get('/index', function(req, res){
 });
 
 app.get('/quiz', function(req, res){
-	res.sendFile(path.join(__dirname, "/app/public/quiz.html"));
+	res.sendFile(path.join(__dirname, "/friend_finder/app/public/quiz.html"));
 });
 
 
